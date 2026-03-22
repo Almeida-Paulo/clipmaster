@@ -11,7 +11,7 @@ Use o aplicativo para gerenciar os itens copiados para a sua área de transferê
 ## ✨ Funcionalidades
 
 * **Histórico Inteligente:** Salva automaticamente os últimos 10 itens copiados (suporta textos e **imagens**).
-* **Colagem Rápida (Hotkeys):** Use `Alt + Shift + 0` ao `9` para colar instantaneamente qualquer item do histórico em qualquer lugar do sistema, sem precisar abrir a interface.
+* **Colagem Rápida (Hotkeys):** Use `Alt + Shift + n`, sendo  `n um número inteiro, de 0 a 9` para colar instantaneamente qualquer item do histórico em qualquer lugar do sistema, sem precisar abrir a interface.
 * **Gerenciamento de Sessões (Abas):** Salve o estado atual do seu clipboard em "pastas" (sessões) nomeadas. Ideal para alternar entre diferentes contextos de trabalho, estudos ou pesquisas.
 * **Interface Premium:** Design moderno, dark mode nativo, janela frameless (sem bordas padrão do Windows) e navegação fluida.
 * **Controle Total:** Copie itens de volta para o clipboard, exclua itens individualmente ou limpe toda a sessão com um clique.
