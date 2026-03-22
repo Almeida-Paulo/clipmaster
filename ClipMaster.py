@@ -8,6 +8,7 @@ from PyQt6.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout,
 from PyQt6.QtCore import Qt, QPoint, QTimer, pyqtSignal, QObject, QByteArray, QBuffer, QIODevice
 from PyQt6.QtGui import QFont, QCursor, QColor, QAction, QImage, QPixmap
 import keyboard
+from PyQt6.QtGui import QIcon
 
 # Cores
 BG_COLOR = "#0A0A0A"
@@ -173,6 +174,7 @@ class ClipMasterApp(QMainWindow):
         self.setWindowFlags(Qt.WindowType.FramelessWindowHint)
         self.resize(450, 650)
         self.setStyleSheet(f"background-color: {BG_COLOR};")
+        self.setWindowIcon(QIcon('icone.ico'))
         
         self.current_session = []
         self.sessions = {}

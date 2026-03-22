@@ -12,6 +12,17 @@ Use o aplicativo para gerenciar os itens copiados para a sua área de transferê
 
 ![ClipMaster Preview](image.png)
 
+
+## 📦 Download (Versão Portátil)
+
+Não quer instalar o Python? Baixe a versão portátil (`.exe`) que roda direto em qualquer Windows:
+
+[![Download ClipMaster Portable](https://img.shields.io/badge/Download-ClipMaster.exe-00E676?style=for-the-badge&logo=windows)](https://github.com/Almeida-Paulo/clipmaster/releases/latest)
+
+> **Nota:** Por ser um executável novo e não assinado digitalmente, o Windows Defender pode exibir um aviso de "Tela Azul" (SmartScreen). Basta clicar em **"Mais informações"** e depois em **"Executar assim mesmo"**.
+
+---
+
 ## ✨ Funcionalidades
 
 * **Histórico Inteligente:** Salva automaticamente os últimos 10 itens copiados (suporta textos e **imagens**).
