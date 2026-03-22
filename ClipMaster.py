@@ -46,12 +46,21 @@ class TitleBar(QFrame):
             QPushButton:hover {{ color: {ACCENT_COLOR}; }}
         """)
         self.menu_btn.clicked.connect(menu_callback)
+
+        # --- Minimize Button ---
+        self.minimize_btn = QPushButton("➖")
+        self.minimize_btn.setCursor(Qt.CursorShape.PointingHandCursor)
+        self.minimize_btn.setStyleSheet(f"""
+            QPushButton {{ color: {MUTED_COLOR}; background: transparent; border: none; font-size: 12px; }}
+            QPushButton:hover {{ color: #E0E0E0; }}
+        """)
+        self.minimize_btn.clicked.connect(self.parent.showMinimized)
         
         # Close Button
         close_btn = QPushButton("✕")
         close_btn.setCursor(Qt.CursorShape.PointingHandCursor)
         close_btn.setStyleSheet(f"""
-            QPushButton {{ color: {MUTED_COLOR}; background: transparent; border: none; font-size: 16px; padding-left: 15px; }}
+            QPushButton {{ color: {MUTED_COLOR}; background: transparent; border: none; font-size: 14px; padding-left: 10px; }}
             QPushButton:hover {{ color: #FF4444; }}
         """)
         close_btn.clicked.connect(self.parent.close)
@@ -59,6 +68,7 @@ class TitleBar(QFrame):
         layout.addWidget(logo_label)
         layout.addStretch()
         layout.addWidget(self.menu_btn)
+        layout.addWidget(self.minimize_btn)
         layout.addWidget(close_btn)
         
         self.startPos = None
