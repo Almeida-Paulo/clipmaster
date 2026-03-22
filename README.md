@@ -1,17 +1,21 @@
 # >_ ClipMaster
 
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
+![PyQt6](https://img.shields.io/badge/PyQt6-GUI-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 ### Ctrl+C, Ctrl+V com estratégia!
 
 O Clipmaster é um gerenciador de área de transferência (clipboard) moderno, rápido e minimalista para Windows, construído em Python com PyQt6.
 
 Use o aplicativo para gerenciar os itens copiados para a sua área de transferência, colando-os onde quiser, utilizando atalhos personalizados.
 
-![ClipMaster Preview](https://via.placeholder.com/800x450.png?text=Coloque+uma+Screenshot+do+App+Aqui)
+![ClipMaster Preview](image.png)
 
 ## ✨ Funcionalidades
 
 * **Histórico Inteligente:** Salva automaticamente os últimos 10 itens copiados (suporta textos e **imagens**).
-* **Colagem Rápida (Hotkeys):** Use `Alt + Shift + n`, sendo  `n um número inteiro, de 0 a 9` para colar instantaneamente qualquer item do histórico em qualquer lugar do sistema, sem precisar abrir a interface.
+* **Colagem Rápida (Hotkeys):** Use `Alt + Shift + n`, sendo  `n um número inteiro, de 0 a 9`, para colar instantaneamente qualquer item do histórico em qualquer lugar do sistema, sem precisar abrir a interface.
 * **Gerenciamento de Sessões (Abas):** Salve o estado atual do seu clipboard em "pastas" (sessões) nomeadas. Ideal para alternar entre diferentes contextos de trabalho, estudos ou pesquisas.
 * **Interface Premium:** Design moderno, dark mode nativo, janela frameless (sem bordas padrão do Windows) e navegação fluida.
 * **Controle Total:** Copie itens de volta para o clipboard, exclua itens individualmente ou limpe toda a sessão com um clique.
@@ -49,7 +53,7 @@ python ClipMaster.py
 2. **Colando:** Vá para o programa onde deseja colar (Word, Navegador, WhatsApp, etc.) e use os atalhos:
    * `Alt + Shift + 0`: Cola o item mais recente.
    * `Alt + Shift + 1`: Cola o penúltimo item.
-   * `Alt + Shift + 2` a `9`: Cola os itens anteriores sequencialmente.
+   * `Alt + Shift + 2` ... `9`: Cola os itens anteriores sequencialmente.
 3. **Sessões:** Na interface, clique em **"Salvar Sessão"** para guardar os itens atuais. Depois, você pode limpar a tela e, quando precisar, ir no menu **"Sessões Salvas"** para carregar todos aqueles itens de volta para os atalhos.
 
 ---
